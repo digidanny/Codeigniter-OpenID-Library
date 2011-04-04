@@ -15,7 +15,7 @@
 |
 */
 
-$autoload['packages'] = array(APPPATH.'openid');
+$autoload['packages'] = array(APPPATH.'third_party/openid');
 
 
 /*

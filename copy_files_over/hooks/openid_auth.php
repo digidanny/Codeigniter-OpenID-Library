@@ -12,7 +12,7 @@ function openid_auth() {
     $user_info = $ci->session->userdata('user_info');
     
     if (!$user_info) {
-      header("Location: ".base_url()."login");
+      header("Location: ".base_url()."index.php/login");
       exit();
     }
     

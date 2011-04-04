@@ -23,4 +23,4 @@ over whole to the root of the application folder.
 files in /edit_existing_files 
 
 3) Customize your openid installation by editing the new 
-/application/openid/config/openid.php file
+/application/third_party/openid/config/openid.php file

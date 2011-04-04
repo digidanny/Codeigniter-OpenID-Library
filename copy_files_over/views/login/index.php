@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>Please Login</h1>
-<?= anchor(base_url() . 'login/begin', 'Sign In With Google Open ID') ?>
+<?= anchor(base_url() . 'index.php/login/begin', 'Sign In With Google Open ID') ?>
 </body>
 </html>
