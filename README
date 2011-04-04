@@ -1,0 +1,26 @@
+------------------------------------------------------------
+PHP OpenId Library for Codeigniter v2.0
+------------------------------------------------------------
+Author: danny.tran@digisynd.com
+Based on the PHP OpenID library by JanRain, Inc.
+
+------------------------------------------------------------
+REQUIREMENTS
+------------------------------------------------------------
+
+* Memcached 
+* PHP 5.2.X
+
+------------------------------------------------------------
+INSTALLATION
+------------------------------------------------------------
+
+1) Copy the files in /copy_files_over to their corresponding folders in the 
+main application folder.  The /copy_files_over/openid folder should be copied 
+over whole to the root of the application folder.
+
+2) Edit the files in the application directory with values from the corresponding 
+files in /edit_existing_files 
+
+3) Customize your openid installation by editing the new 
+/application/openid/config/openid.php file
