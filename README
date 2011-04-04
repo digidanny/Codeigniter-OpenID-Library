@@ -24,3 +24,8 @@ files in /edit_existing_files
 
 3) Customize your openid installation by editing the new 
 /application/third_party/openid/config/openid.php file
+
+  $config['openid_user_url'] : the openid endpoint for the user
+  
+  $config['openid_exclude_controllers'] : array of controllers you do not want to 
+    require openid login for.
