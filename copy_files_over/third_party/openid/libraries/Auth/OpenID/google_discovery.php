@@ -193,6 +193,8 @@ class GApps_OpenID_Discovery {
      * @return Auth_Yadis_XRDS
      */
     function fetch_xrds_services($authority, $url, $fetcher, $use_cache = true) {
+        $body = null;
+        
         if ($url == null) {
             throw new GApps_Discovery_Exception("Invalid null URL");
         }

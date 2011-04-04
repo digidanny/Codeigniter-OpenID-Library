@@ -7,3 +7,7 @@ $config['openid_user_url'] = "";
 $config['openid_exclude_controllers'] = array(
   'login','logout'
 );
+
+$config['memcached_servers'] = array(
+  'localhost' // replace with appropriate memcache servers
+);
