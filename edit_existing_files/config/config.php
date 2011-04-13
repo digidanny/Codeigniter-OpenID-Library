@@ -19,20 +19,5 @@
 
 $config['enable_hooks'] = TRUE;
 
-/*
-| -------------------------------------------------------------------
-|  Auto-load Config files
-| -------------------------------------------------------------------
-| Prototype:
-|
-|	$autoload['config'] = array('config1', 'config2');
-|
-| NOTE: This item is intended for use ONLY if you have created custom
-| config files.  Otherwise, leave it blank.
-|
-*/
-
-$autoload['config'] = array('openid');
-
 /* End of file config.php */
 /* Location: ./application/config/config.php */

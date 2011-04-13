@@ -43,5 +43,20 @@ $autoload['libraries'] = array('session');
 
 $autoload['helper'] = array('url');
 
+/*
+| -------------------------------------------------------------------
+|  Auto-load Config files
+| -------------------------------------------------------------------
+| Prototype:
+|
+|	$autoload['config'] = array('config1', 'config2');
+|
+| NOTE: This item is intended for use ONLY if you have created custom
+| config files.  Otherwise, leave it blank.
+|
+*/
+
+$autoload['config'] = array('openid');
+
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
